@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500,700,900&display=swap');
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --white: #FFFFFF;
+    --hover: #766CF1;
+    --font-Red-Hat-Display: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Pale-blue);
+    background-size: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-principal {
+    background-color: var(--white);
+    border-radius: 25px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    -webkit-box-shadow: -1px -1px 16px -4px var(--Desaturated-blue);
+    -moz-box-shadow: -1px -1px 16px -4px var(--Desaturated-blue);
+    box-shadow: -2px 15px 28px -20px var(--Desaturated-blue);
+}
+
+.ilustracion img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 500px;
+}
+
+.order-summary {
+    width: 75%;
+}
+
+h1 {
+    font-family: var(--font-Red-Hat-Display);
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--Dark-blue);
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: var(--font-Red-Hat-Display);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    color: var(--Desaturated-blue);
+    line-height: 1.7rem;
+    padding-bottom: 12px;
+}
+
+.container-plan {
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0 25px 0 25px;
+}
+
+.anual-plan {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 80px 10px 15px;
+    line-height: 0.7rem;
+    display: inline;
+}
+
+h3 {
+    font-family: var(--font-Red-Hat-Display);
+    color: var(--Dark-blue);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.price {
+    font-family: var(--font-Red-Hat-Display);
+    color: var(--Desaturated-blue);
+    font-size: 1.35rem;
+}
+
+.change {
+    font-family: var(--font-Red-Hat-Display);
+    color: var(--Bright-blue);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.change:hover {
+    color: var(--hover);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    background: var(--Bright-blue);
+    color: var(--white);
+    font-family: var(--font-Red-Hat-Display);
+    border: none;
+    padding: 18px 120px;
+    border-radius: 15px;
+    margin: 35px 35px 15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+
+    -webkit-box-shadow: -1px -1px 16px -4px var(--Dark-blue);
+    -moz-box-shadow: -1px -1px 16px -4px var(--Dark-blue);
+    box-shadow: 10px 20px 50px -20px var(--Dark-blue);
+}
+
+button:hover {
+    background: var(--hover);
+    cursor: pointer;
+}
+
+.cancel-text {
+    font-family: var(--font-Red-Hat-Display);
+    color: var(--Desaturated-blue);
+    font-weight: 900;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.cancel-text:hover {
+    color: var(--Dark-blue);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 769px) {
+
+    body {
+        background: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: var(--Pale-blue);
+        background-size: 100%;
+        margin: 15px;
+    }
+
+    main {
+        min-height: 100vh;
+    }
+
+    .container-principal {
+        width: 100%;
+    }
+
+    .ilustracion img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .container-plan {
+        gap: 10px;
+        padding: 0 18px 0 18px;
+    }
+
+    .anual-plan {
+        margin: 8px 30px 8px 8px;
+    }
+
+    .price {
+        font-size: 20px;
+
+    }
+
+    button {
+        padding: 18px 70px;
+        margin: 35px 16px 15px 16px;
+    }
+
+}
