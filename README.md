@@ -1,4 +1,4 @@
-<img src="">
+<img src="https://github.com/CarolinaDangelo/order-summary-card/blob/f0c371ce9cdb9ce18ada48d1aaa7f1cc0177b831/images/captura.jpg">
 
 <h1 align="center">Frontend Mentor - Order summary card solution</h1>
 
