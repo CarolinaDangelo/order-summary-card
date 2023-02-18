@@ -27,8 +27,8 @@ main {
 
 .container-principal {
     background-color: var(--white);
-    border-radius: 25px;
-    width: 500px;
+    border-radius: 1.5rem;
+    width: 31.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +41,8 @@ main {
 
 .ilustracion img {
     object-fit: cover;
-    border-radius: 25px 25px 0 0;
-    width: 500px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    width: 31.2rem;
 }
 
 .order-summary {
@@ -51,38 +51,38 @@ main {
 
 h1 {
     font-family: var(--font-Red-Hat-Display);
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: 900;
     color: var(--Dark-blue);
     text-align: center;
-    padding-top: 15px;
+    padding-top: 0.9rem;
 }
 
 h2 {
     font-family: var(--font-Red-Hat-Display);
     text-align: center;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
     letter-spacing: 0.02rem;
     color: var(--Desaturated-blue);
     line-height: 1.7rem;
-    padding-bottom: 12px;
+    padding-bottom: 0.75rem;
 }
 
 .container-plan {
     background-color: var(--Very-pale-blue);
-    border-radius: 15px;
+    border-radius: 0.9rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
-    padding: 0 25px 0 25px;
+    gap: 1.25rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .anual-plan {
     display: flex;
     flex-direction: column;
-    margin: 10px 80px 10px 15px;
+    margin: 0.6rem 5rem 0.6rem 0.9rem;
     line-height: 0.7rem;
     display: inline;
 }
@@ -90,7 +90,7 @@ h2 {
 h3 {
     font-family: var(--font-Red-Hat-Display);
     color: var(--Dark-blue);
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 900;
 }
 
@@ -118,10 +118,10 @@ button {
     color: var(--white);
     font-family: var(--font-Red-Hat-Display);
     border: none;
-    padding: 18px 120px;
-    border-radius: 15px;
-    margin: 35px 35px 15px 35px;
-    font-size: 16px;
+    padding: 1.1rem 7.5rem;
+    border-radius: 0.9rem;
+    margin: 2.1rem 2.1rem 0.9rem 2.1rem;
+    font-size: 1rem;
     font-weight: 600;
 
     -webkit-box-shadow: -1px -1px 16px -4px var(--Dark-blue);
@@ -138,8 +138,8 @@ button:hover {
     font-family: var(--font-Red-Hat-Display);
     color: var(--Desaturated-blue);
     font-weight: 900;
-    font-size: 15px;
-    padding-bottom: 30px;
+    font-size: 0.9rem;
+    padding-bottom: 1.8rem;
 }
 
 .cancel-text:hover {
@@ -154,7 +154,7 @@ button:hover {
         background-repeat: no-repeat;
         background-color: var(--Pale-blue);
         background-size: 100%;
-        margin: 15px;
+        margin: 0.9rem;
     }
 
     main {
@@ -170,30 +170,30 @@ button:hover {
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 1.3rem;
     }
 
     h2 {
-        font-size: 15px;
+        font-size: 0.9rem;
     }
 
     .container-plan {
-        gap: 10px;
-        padding: 0 18px 0 18px;
+        gap: 0.6rem;
+        padding: 0 1.1rem 0 1.1rem;
     }
 
     .anual-plan {
-        margin: 8px 30px 8px 8px;
+        margin: 0.5rem 1.85rem 0.5rem 0.5rem;
     }
 
     .price {
-        font-size: 20px;
+        font-size: 1.25rem;
 
     }
 
     button {
-        padding: 18px 70px;
-        margin: 35px 16px 15px 16px;
+        padding: 1.1rem 4.3rem;
+        margin: 2.1rem 1rem 0.9rem 1rem;
     }
 
 }
